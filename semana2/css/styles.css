@@ -1,0 +1,59 @@
+<style>
+
+body {
+  margin:0px;
+  padding:0px;
+}
+* {
+  box-sizing: border-box;
+  font-family: Helvetica;
+}
+h1 {
+  text-align: center;
+}
+
+section.menuitem {
+  border: 1px solid black;
+  height:380px;
+  background: gray;
+  margin:20px;
+}
+
+h2.itemtitle {
+  float: right;
+  width: 50%;
+  margin: 0px;
+  padding: 10px;
+  text-align: center;
+}
+
+
+p.itemtext {
+  clear: right;
+  padding: 15px;
+  overflow: auto;
+}
+
+.row {
+  width: 100%;
+}
+/********** Large devices only **********/
+@media (min-width: 992px) {
+  .col-lg-third {
+    float: left;
+    width: 33.33%;
+  }
+}
+
+/********** Medium devices only **********/
+@media (min-width: 798px) and (max-width: 991px) {
+  .col-md-half, .col-md-full {
+    float: left;
+  }
+  .col-md-half {
+    width: 50%;
+  }
+  .col-md-full {
+    width: 100%;
+  }
+}
