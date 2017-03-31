@@ -19,12 +19,23 @@ section.menuitem {
   margin:20px;
 }
 
+#frango {
+  background: black;
+}
+#carne {
+  background: green;
+}
+#sushi {
+  background: blue;
+}
+
 h2.itemtitle {
   float: right;
   width: 50%;
   margin: 0px;
   padding: 10px;
   text-align: center;
+  color:white;
 }
 
 
