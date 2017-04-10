@@ -1,0 +1,18 @@
+section.menuitem {
+  border: 1px solid black;
+  background: gray;
+  margin:20px;
+}
+
+h2.itemtitle {
+  margin: 0px;
+  text-align: center;
+}
+
+
+p.itemtext {
+  padding: 20px;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
